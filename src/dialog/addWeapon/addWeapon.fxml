@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="516.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dialog.addWeapon.addWeaponController">
+
+   <children>
+
+      <Label layoutX="47.0" layoutY="55.0" text="Name" />
+      <TextField fx:id="txtName" layoutX="113.0" layoutY="51.0" prefHeight="25.0" prefWidth="236.0" />
+      <ComboBox fx:id="cbRace" layoutX="112.0" layoutY="92.0" prefWidth="150.0" />
+      <Label layoutX="47.0" layoutY="96.0" text="Race" />
+      <Label layoutX="47.0" layoutY="129.0" text="Type" />
+      <ComboBox fx:id="cbType" layoutX="112.0" layoutY="125.0" prefWidth="150.0" />
+      <Label layoutX="46.0" layoutY="183.0" text="Strength" />
+      <Label layoutX="46.0" layoutY="216.0" text="RoA" />
+      <Label layoutX="46.0" layoutY="246.0" text="AVV" />
+      <TextField fx:id="txtStrength" layoutX="113.0" layoutY="179.0" />
+      <TextField fx:id="txtRoa" layoutX="113.0" layoutY="212.0" />
+      <TextField fx:id="txtAvv" layoutX="113.0" layoutY="242.0" />
+      <Button fx:id="btnAddWeapon" layoutX="389.0" layoutY="383.0" mnemonicParsing="false" onAction="#btnAddWeaponClicked" text="Add Weapon" />
+      <Button fx:id="btnAbort" layoutX="34.0" layoutY="383.0" mnemonicParsing="false" onAction="#btnAbortClicked" text="Cancel" />
+      <Label fx:id="laStatus" layoutX="98.0" layoutY="387.0" />
+      <Label layoutX="16.0" layoutY="14.0" text="Add weapons" textFill="#0a0a0a" underline="true">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
